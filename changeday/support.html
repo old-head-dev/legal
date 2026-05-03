@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ChangeDay: Support</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; background: #071421; color: #f5f5f7; line-height: 1.7; }
+    .container { max-width: 680px; margin: 0 auto; padding: 60px 24px 80px; }
+    h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+    .app-name { color: #3B82F6; font-size: 15px; font-weight: 600; margin-bottom: 4px; }
+    .subtitle { font-size: 15px; color: #8e8e93; margin-bottom: 32px; }
+    h2 { font-size: 20px; font-weight: 600; margin: 32px 0 12px; }
+    h3 { font-size: 17px; font-weight: 600; margin: 20px 0 8px; color: #f5f5f7; }
+    p, li { font-size: 15px; color: #d1d1d6; margin-bottom: 12px; }
+    ul { padding-left: 20px; margin-bottom: 16px; }
+    li { margin-bottom: 6px; }
+    a { color: #3B82F6; }
+    .back { display: inline-block; margin-bottom: 24px; color: #3B82F6; text-decoration: none; font-size: 15px; }
+    .back:hover { opacity: 0.8; }
+    .card { background: #102033; border-radius: 12px; padding: 20px 24px; margin: 16px 0; }
+    .card h3 { margin-top: 0; }
+    .card p:last-child { margin-bottom: 0; }
+    .contact { background: #102033; border-radius: 12px; padding: 20px 24px; margin-top: 32px; }
+    .contact a { font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back">&larr; Back</a>
+    <div class="app-name">ChangeDay</div>
+    <h1>Support</h1>
+    <p class="subtitle">Get help with ChangeDay, the shared reminder app for recurring care routines.</p>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="card">
+      <h3>How do I share with another person?</h3>
+      <p>Open Settings, then "Shared connection". Tap "Invite another person" to send a CloudKit sharing invitation through Messages, Mail, or any other share sheet option. The recipient must have ChangeDay installed and accept the invitation with their own Apple ID. Once accepted, both phones see the same data.</p>
+    </div>
+
+    <div class="card">
+      <h3>How many people can use the same tracker?</h3>
+      <p>ChangeDay is designed for two people. CloudKit Sharing supports more participants in principle, but the app is intentionally scoped to a small shared household.</p>
+    </div>
+
+    <div class="card">
+      <h3>The other person's update isn't showing up.</h3>
+      <p>CloudKit sync is normally fast but is not instantaneous. If an update is delayed:</p>
+      <ul>
+        <li>Make sure both devices are signed into iCloud and connected to the internet.</li>
+        <li>Open and re-open the app to trigger a fresh sync.</li>
+        <li>If the issue persists, confirm that the other person has accepted the share by checking Settings &rarr; Shared connection.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Why aren't my reminders firing?</h3>
+      <p>ChangeDay uses standard iOS local notifications. If reminders are not appearing:</p>
+      <ul>
+        <li>Open iOS Settings &rarr; Notifications &rarr; ChangeDay and confirm notifications are enabled.</li>
+        <li>Confirm Focus or Do Not Disturb is not blocking notifications.</li>
+        <li>In ChangeDay, open Settings and confirm reminder times are set correctly.</li>
+      </ul>
+      <p>Notifications are scheduled per device. Each phone schedules its own reminders based on the synced data.</p>
+    </div>
+
+    <div class="card">
+      <h3>What happens if I sign out of iCloud?</h3>
+      <p>Your data remains on your device. Sync pauses until you sign back in. Once you sign in again, the app reconnects automatically.</p>
+    </div>
+
+    <div class="card">
+      <h3>Can I use ChangeDay without iCloud?</h3>
+      <p>Yes. The app works locally without iCloud. Sync and sharing become available once you sign into iCloud.</p>
+    </div>
+
+    <div class="card">
+      <h3>Is ChangeDay a medical app?</h3>
+      <p>No. ChangeDay is a reminder and history tool. It does not provide medical advice, dosing guidance, diagnosis, or treatment recommendations. Always follow guidance from your clinician and any device manufacturer whose products you use. See our <a href="terms-of-service.html">Terms of Service</a>.</p>
+    </div>
+
+    <div class="card">
+      <h3>How do I stop sharing?</h3>
+      <p>Open Settings &rarr; Shared connection and tap "Manage sharing". From there you can remove participants or stop sharing entirely. Stopping a share does not delete history; it only ends the live connection.</p>
+    </div>
+
+    <h2>Report a Bug or Request a Feature</h2>
+    <p>We welcome bug reports and feature requests. Please include your device model, iOS version, and a description of the issue or idea.</p>
+
+    <div class="contact">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:JHeringApps+changeday@gmail.com">JHeringApps+changeday@gmail.com</a></p>
+      <p>We aim to respond within 2 business days.</p>
+    </div>
+
+    <p style="margin-top: 40px; font-size: 13px; color: #6e6e73;">
+      <a href="privacy-policy.html">Privacy Policy</a> &middot; <a href="terms-of-service.html">Terms of Service</a>
+    </p>
+  </div>
+</body>
+</html>
